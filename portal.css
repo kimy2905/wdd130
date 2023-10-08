@@ -1,21 +1,48 @@
 nav {
-    background-color: lightblue;
+    border: 1px solid red;
+    background-color: a;
     color:rgb(71,69,69);
-    text-decoration: more;
-    padding: 10px;
-    margin: 5px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+}
+a {
+
+text-decoration:none;
+padding: 10px;
+margin: 5px;
+background-color: lightblue;
 
 }
-nav {
-    display: flex;
+a:hover{
+    background-color:darkgray;
+    color: white;
+
+}
+h1 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+img{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 
 }
 p{
-    background-color:white;
-}
+    width:80%;
+    margin: 10px auto;
+    padding: 10px;
 
-.primary {
-    background: pink;
+}
+.background{
+    background-color:#ccc;
+}
+footer p{
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    color: rgb(71,69,69);
 
 }
