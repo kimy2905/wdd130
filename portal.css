@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Playfair+Display&display=swap');
+
 nav {
     border: 1px solid red;
     background-color: a;
@@ -12,6 +14,8 @@ text-decoration:none;
 padding: 10px;
 margin: 5px;
 background-color: lightblue;
+color: rgb(71,69,69)
+
 
 }
 a:hover{
@@ -19,21 +23,34 @@ a:hover{
     color: white;
 
 }
+nav {
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+}
+
 h1 {
-    font-size: 1.5em;
+    font-size: 2em;
     text-align: center;
+    margin: 40px;
 }
 
 img{
-    width: 80%;
+    width: 60%;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
+    border: 3px solid lightblue;
+    padding: 5px 40 px 10 px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+
 
 }
 p{
-    width:80%;
+    width:60%;
     margin: 10px auto;
     padding: 10px;
+    box-sizing: border-box;
 
 }
 .background{
@@ -46,3 +63,4 @@ footer p{
     color: rgb(71,69,69);
 
 }
+
