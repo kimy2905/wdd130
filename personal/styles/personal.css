@@ -87,3 +87,53 @@ nav a {
     text-align: center;
     padding: 35px;
 }
+
+/* page 1 */
+
+.page1-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+    align-content: center;
+}
+.image1{
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+}
+.image2{
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+}
+.image3{
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100%;
+}
+#text1{
+
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-items: center; 
+}
+.text2{
+    display:flex;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    align-items: center; 
+}
+.text3{
+    display:flex;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-items: center; 
+}
+.logo{
+    width: 88.5px;
+    margin-bottom: -10px;
+}
