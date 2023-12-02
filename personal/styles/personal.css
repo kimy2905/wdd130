@@ -25,7 +25,8 @@ a {
     z-index: 1;
     grid-column: 2/3;
     grid-row: 2/3;
-
+    text-align: center;
+    font-size: x-large;
 }
 .logo{
     width: 85.5px;
@@ -37,7 +38,7 @@ a {
     align-content: center;
     justify-content: center;  
     grid-template-columns: 1fr 1fr;
-    
+    gap: 1em;
 }
 .card1 {
     display: flex;
@@ -69,10 +70,10 @@ nav {
 }
        
 nav a:hover {
-    background-color:black;
+    background-color:#236A7F;
 }
 footer{
-    background-color: #6f7364;
+    background-color: #236A7F;
     padding: 25px 50px;
     display: flex;
     justify-content: space-around;
@@ -99,6 +100,7 @@ nav a {
     grid-template-columns:1fr 1fr;
     grid-template-rows:1fr 1fr 1fr;
     align-content: center;
+    gap: 1em;
 }
 .image1{
     grid-column: 1/2;
@@ -125,12 +127,16 @@ nav a {
     grid-row: 1/2;
     align-items: center; 
     width: 700px;
+    text-align: center;
 }
 #text2{
     display:flex;
     grid-column: 1/2;
     grid-row: 2/3;
     align-items: center; 
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
   
 }
 #text3{
@@ -139,4 +145,7 @@ nav a {
     grid-row: 3/4;
     align-items: center; 
     width: 700px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
 }
