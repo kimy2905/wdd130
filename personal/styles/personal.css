@@ -151,7 +151,21 @@ nav a {
     justify-content: center;
     text-align: center; 
 }
-.image1:hover, .image2:hover,.image3:hover {
-    transition: .5s ease;
-    background-image: url('images/necklace.png');
+
+.image1,
+.image2,
+.image3 {
+  transition: opacity 0.5s ease-in-out;
+}
+
+.image1:hover {
+  background-image: url('collar_image1.jpg');
+}
+
+.image2:hover {
+  background-image: url('hand_image2.jpg');
+}
+
+.image3:hover {
+  background-image: url('rings_image3.jpg');
 }
