@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Playfair+Display&display=swap');
 body{
     font-family:  Lato, Helvetica, sans-serif;
+    margin: 0;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: "IM Fell French Canon", Helvetica , sans-serif ;
@@ -12,11 +13,12 @@ a {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-#flower{
-    width: 100%;
+#hero-video{
+    max-width: 100%;
 }
 #hero-box{
-    width:100%;
+    width: 100%;
+    overflow: hidden;
     z-index: -1;
     grid-column: 1/4;
     grid-row: 1/4;
@@ -148,4 +150,8 @@ nav a {
     flex-direction: column;
     justify-content: center;
     text-align: center; 
+}
+.image1:hover, .image2:hover,.image3:hover {
+    transition: .5s ease;
+    background-image: url('images/necklace.png');
 }
